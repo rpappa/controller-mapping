@@ -1,19 +1,22 @@
+/*
+CONFIGURATION
+*/
 var map = {
     'driver': {
-        'lt': 'Reverse',
-        'rt': 'Forward',
-        'lb': 'Tote down',
-        'rb': 'Tote up',
+        'lt': 'Reverse', // left trigger
+        'rt': 'Forward', // right trigger
+        'lb': 'Tote down', // left bumper
+        'rb': 'Tote up', // right bumper
         'a' : 'Speed boost',
-        'b' : 'Eject wheels',
+        'b' : 'Eject wheels', 
         'x' : 'None',
         'y' : 'None',
-        'ls': 'Arcade',
-        'rs': 'Slow arcade',
-        'up'    : 'Shift up',
-        'down'  : 'Shift down',
-        'left'  : 'None',
-        'right' : 'None',
+        'ls': 'Arcade', // left stick
+        'rs': 'Slow arcade', // right stick
+        'up'    : 'Shift up', // dpad up
+        'down'  : 'Shift down', // dpad down
+        'left'  : 'None', // dpad left
+        'right' : 'None', // dpad right
         'back'  : 'Brake',
         'start' : 'Vision'
     },
@@ -37,6 +40,9 @@ var map = {
     }
 }
 
+/*
+DONT EDIT
+*/
 $(document).ready(()=> {
     for(i = 0; i <= 1; i++) {
         if(i == 0) {
@@ -46,21 +52,21 @@ $(document).ready(()=> {
             current = map.co;
             cont = ".co";
         }
-        $(`${cont} .lt`).text(current.lt);
-        $(`${cont} .rt`).text(current.rt);
-        $(`${cont} .lb`).text(current.lb);
-        $(`${cont} .rb`).text(current.rb);
-        $(`${cont} .a`).text(current.a);
-        $(`${cont} .b`).text(current.b);
-        $(`${cont} .x`).text(current.x);
-        $(`${cont} .y`).text(current.y);
-        $(`${cont} .ls`).text(current.ls);
-        $(`${cont} .rs`).text(current.rs);
-        $(`${cont} .up`).text(current.up);
+        $(`${cont} .lt`).text('LT: ' + current.lt);
+        $(`${cont} .rt`).text('RT: ' +current.rt);
+        $(`${cont} .lb`).text('LB: ' +current.lb);
+        $(`${cont} .rb`).text('RB: ' +current.rb);
+        $(`${cont} .a`).text('A: ' +current.a);
+        $(`${cont} .b`).text('B: ' +current.b);
+        $(`${cont} .x`).text('X: ' +current.x);
+        $(`${cont} .y`).text('Y: ' +current.y);
+        $(`${cont} .ls`).text('LS: ' +current.ls);
+        $(`${cont} .rs`).text('RS: ' +current.rs);
+        $(`${cont} .up`).text('DPAD: ' +current.up);
         $(`${cont} .down`).text(current.down);
         $(`${cont} .left`).text(current.left);
         $(`${cont} .right`).text(current.right);
-        $(`${cont} .back`).text(current.back);
-        $(`${cont} .start`).text(current.start);
+        $(`${cont} .back`).text('BACK: ' +current.back);
+        $(`${cont} .start`).text('START: ' +current.start);
     }
 });
