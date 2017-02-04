@@ -1,0 +1,97 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.controller {
+    box-shadow: 1px 1px 5px #888888;
+   
+    margin:auto;
+    margin-top:20px;
+    
+    width:95%;
+    
+    position:relative;
+}
+
+.controller .type {
+    position: absolute;
+    left:10px;
+    top:10px;
+    z-index: 100;
+}
+
+img {
+    width:700px;
+    z-index: 0;
+    position: relative;
+}
+
+.lt {
+    left:230px;
+    top:25px;
+}
+.rt {
+    left:450px;
+    top:25px;
+}
+.lb {
+    left:60px;
+    top:65px;
+}
+.rb {
+    left:550px;
+    top:100px;
+}
+.a {
+    left:600px;
+    top:330px;
+}
+.b {
+    left:600px;
+    top:260px;
+}
+.x {
+    left:600px;
+    top:303px;
+}
+.y {
+    left:600px;
+    top:227px;
+}
+.ls {
+    left:40px;
+    top:307px;
+}
+.rs {
+    left:560px;
+    top:540px;
+}
+.up {
+    left:255px;
+    top:537px;
+}
+.down {
+    left:255px;
+    top:585px;
+}
+.left {
+    left:210px;
+    top:560px;
+}
+.right {
+    left:325px;
+    top:560px;
+}
+.start {
+    left:370px;
+    top:155px;
+}
+.back {
+    left:250px;
+    top:155px;
+}
+
+.label {
+    position: absolute;
+    z-index:100;
+}
