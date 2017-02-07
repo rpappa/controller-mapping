@@ -11,7 +11,7 @@ var map = {
         'b' : 'Claw Up', 
         'x' : 'Claw Close',
         'y' : 'Claw Open',
-        'ls': 'Arcade (press for drop drive)', // left stick
+        'ls': 'Arcade \n(press for drop drive)', // left stick
         'rs': 'Slow arcade', // right stick
         'up'    : 'None', // dpad up
         'down'  : 'None', // dpad down
