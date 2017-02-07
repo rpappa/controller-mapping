@@ -11,7 +11,7 @@ var map = {
         'b' : 'Claw Up', 
         'x' : 'Claw Close',
         'y' : 'Claw Open',
-        'ls': 'Arcade \n(press for drop drive)', // left stick
+        'ls': 'Arcade<br>(press for drop drive)', // left stick
         'rs': 'Slow arcade', // right stick
         'up'    : 'None', // dpad up
         'down'  : 'None', // dpad down
@@ -60,7 +60,7 @@ $(document).ready(()=> {
         $(`${cont} .b`).text('B: ' +current.b);
         $(`${cont} .x`).text('X: ' +current.x);
         $(`${cont} .y`).text('Y: ' +current.y);
-        $(`${cont} .ls`).text('LS: ' +current.ls);
+        $(`${cont} .ls`).html('LS: ' +current.ls);
         $(`${cont} .rs`).text('RS: ' +current.rs);
         $(`${cont} .up`).text('DPAD: ' +current.up);
         $(`${cont} .down`).text(current.down);
