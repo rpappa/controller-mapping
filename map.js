@@ -3,38 +3,38 @@ CONFIGURATION
 */
 var map = {
     'driver': {
-        'lt': 'Reverse', // left trigger
-        'rt': 'Forward', // right trigger
-        'lb': 'Tote down', // left bumper
-        'rb': 'Tote up', // right bumper
-        'a' : 'Speed boost',
-        'b' : 'Eject wheels', 
-        'x' : 'None',
-        'y' : 'None',
-        'ls': 'Arcade', // left stick
+        'lt': 'None', // left trigger
+        'rt': 'None', // right trigger
+        'lb': 'Rollers in', // left bumper
+        'rb': 'Rollers out', // right bumper
+        'a' : 'Claw Down',
+        'b' : 'Claw Up', 
+        'x' : 'Claw Close',
+        'y' : 'Claw Open',
+        'ls': 'Arcade (press for drop drive)', // left stick
         'rs': 'Slow arcade', // right stick
-        'up'    : 'Shift up', // dpad up
-        'down'  : 'Shift down', // dpad down
+        'up'    : 'None', // dpad up
+        'down'  : 'None', // dpad down
         'left'  : 'None', // dpad left
         'right' : 'None', // dpad right
-        'back'  : 'Brake',
-        'start' : 'Vision'
+        'back'  : 'Retract pusher',
+        'start' : 'Extend pusher'
     },
     'co': {
-        'lt': 'Intake ball',
-        'rt': 'Shoot ball',
-        'lb': 'Intake Gear',
-        'rb': 'Eject Gear',
-        'a' : 'Claw down',
-        'b' : 'Claw up',
-        'x' : 'Open claw',
-        'y' : 'Close claw',
-        'ls': 'Climb',
-        'rs': 'Pivot camera',
-        'up'    : 'Move forward',
-        'down'  : 'Move backwards',
-        'left'  : 'Strafe left',
-        'right' : 'Strafe right',
+        'lt': 'None',
+        'rt': 'None',
+        'lb': 'None',
+        'rb': 'None',
+        'a' : 'None',
+        'b' : 'None',
+        'x' : 'None',
+        'y' : 'None',
+        'ls': 'None',
+        'rs': 'None',
+        'up'    : 'None',
+        'down'  : 'None',
+        'left'  : 'None',
+        'right' : 'None',
         'back'  : 'None',
         'start' : 'None'
     }
