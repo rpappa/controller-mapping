@@ -4,39 +4,39 @@ CONFIGURATION
 var map = {
     'driver': {
         'lt': 'None', // left trigger
-        'rt': 'None', // right trigger
-        'lb': 'Rollers in', // left bumper
-        'rb': 'Rollers out', // right bumper
-        'a' : 'Claw Down',
-        'b' : 'Claw Up', 
-        'x' : 'Claw Close',
-        'y' : 'Claw Open',
-        'ls': 'Arcade<br>(press for drop drive)', // left stick
+        'rt': 'Hold drop', // right trigger
+        'lb': 'None', // left bumper
+        'rb': 'None', // right bumper
+        'a' : 'Harvest Gear',
+        'b' : 'Toggle Drop', 
+        'x' : 'Score Gear',
+        'y' : 'Release Gear',
+        'ls': 'Arcade', // left stick
         'rs': 'Slow arcade', // right stick
-        'up'    : 'None', // dpad up
-        'down'  : 'None', // dpad down
-        'left'  : 'None', // dpad left
+        'up'    : 'Release Gear', // dpad up
+        'down'  : 'Harvest Gear', // dpad down
+        'left'  : 'Score Gear', // dpad left
         'right' : 'None', // dpad right
-        'back'  : 'Retract pusher',
-        'start' : 'Extend pusher'
+        'back'  : 'Move to peg (vision)',
+        'start' : 'Harvest Gear'
     },
     'co': {
         'lt': 'None',
         'rt': 'None',
-        'lb': 'None',
-        'rb': 'None',
-        'a' : 'None',
-        'b' : 'None',
-        'x' : 'None',
-        'y' : 'None',
+        'lb': 'Rollers in',
+        'rb': 'Rollers out',
+        'a' : 'Extend Pusher (Hold)',
+        'b' : 'Toggle Drop',
+        'x' : 'Arm Down (Hold)',
+        'y' : 'Claw Open (Hold)',
         'ls': 'None',
         'rs': 'None',
         'up'    : 'None',
         'down'  : 'None',
         'left'  : 'None',
         'right' : 'None',
-        'back'  : 'None',
-        'start' : 'None'
+        'back'  : 'Climb Engage',
+        'start' : 'Climb full speed'
     }
 }
 
